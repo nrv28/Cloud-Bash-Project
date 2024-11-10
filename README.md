@@ -13,10 +13,10 @@ The **Cloud-Bash-Project** is a web application designed to analyze the content 
 ## Screenshots
 
 1. **Input Page**: The initial page where users can input the URL (shown below).
-   ![Input Page](./Docs/input.png)
+   ![Input Page](./Docs/Input.png)
 
 2. **Output Page**: The result page displaying the word frequency table.
-   ![Output Page](./Docs/output.png)
+   ![Output Page](./Docs/Output.png)
 
 ## Project Structure
 
@@ -54,6 +54,7 @@ The **Cloud-Bash-Project** is a web application designed to analyze the content 
    ```bash
    git clone https://github.com/yourusername/Cloud-Bash-Project.git
    cd Cloud-Bash-Project
+   
 2. Install dependencies:
   ```bash
-     npm install
+   npm install
