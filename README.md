@@ -13,7 +13,7 @@ The **Cloud-Bash-Project** is a web application designed to analyze the content 
 ## Screenshots
 
 -**Request Body (JSON)**:
-bash
+```bash
 {
   "URL": "https://example.com",   // The webpage URL to analyze
   "Top_N": 10                     // (Optional) The number of top words to return (default is 10)
@@ -24,7 +24,7 @@ bash
 
 
 -**Response (JSON)**:
-bash
+```bash
 {
   "url": "https://example.com",
   "top_words": [
