@@ -23,7 +23,10 @@ The **Cloud-Bash-Project** is a web application designed to analyze the content 
 ### 1. Title
    ![Title](./Docs/1_Extractor.png)
 
-### 2. Tech Stack
+### 2. Tools and Technologies Used
+  - *Backend*: NodeJS, ExpressJS, BeautifulSoup, Python 3
+  - *Frontend*: ReactJS, JavaScript (Fetch API)
+
    ![Tech Stack](./Docs/2_Extractor.png)
 
 ### 3. Project Overview
