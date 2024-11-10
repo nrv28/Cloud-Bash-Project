@@ -1,4 +1,4 @@
-# Cloud-Bash-Project
+# Word-Extractor-Project
 
 ## Overview
 
