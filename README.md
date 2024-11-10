@@ -1,5 +1,5 @@
 # Cloud-Bash-Project
 
+![CloudBash PDF Thumbnail](https://github.com/nrv28/Cloud-Bash-Project/raw/main/path/to/thumbnail.png)
 
-<iframe src="/Docs/CloudBash.pdf" width="640" height="480"></iframe>
-
+[Click here to view the full CloudBash PDF](https://github.com/nrv28/Cloud-Bash-Project/raw/main/Docs/CloudBash.pdf)
