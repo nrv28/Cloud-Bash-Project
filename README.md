@@ -67,7 +67,7 @@ The **Cloud-Bash-Project** is a web application designed to analyze the content 
 
 ## Tech Stack
 
-- **Frontend**: HTML, CSS, JavaScript
+- **Frontend**: HTML, CSS, JavaScript, ReactJS
 - **Backend**: Node.js, Express
 - **Web Scraping & Analysis**: Python (BeautifulSoup, collections for word frequency)
 - **REST API**: Facilitates communication between frontend and backend
