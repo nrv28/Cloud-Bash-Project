@@ -78,7 +78,31 @@ The **Cloud-Bash-Project** is a web application designed to analyze the content 
    ```bash
    git clone https://github.com/yourusername/Cloud-Bash-Project.git
    cd Cloud-Bash-Project
+   ```
    
 2. Install dependencies:
   ```bash
    npm install
+   pip install BeautifulSoup
+   ```
+
+3. Run the Backend Server:
+   ```bash
+   cd backend
+   node server.js
+   ```
+4. Start the Frontend:
+   ```bash
+   cd frontend
+   npm start
+   ```
+
+ ## Troubleshooting
+- Common Issues:
+  
+**TemplateNotFound Error**: Ensure that your index.html file is located inside the templates directory.
+
+**500 Internal Server Error**: This might happen if the webpage cannot be fetched. Check if the provided URL is valid and accessible.
+
+**CORS Error**: If you are accessing the API from a different domain, make sure to handle CORS in your Flask app by using the flask-cors library.
+  
