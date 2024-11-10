@@ -1,4 +1,5 @@
 # Cloud-Bash-Project
 
 
-[View the PDF](/Docs/CloudBash.pdf)
+<iframe src="/Docs/CloudBash.pdf" width="640" height="480"></iframe>
+
