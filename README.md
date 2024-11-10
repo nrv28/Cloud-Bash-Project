@@ -81,7 +81,7 @@ The **Cloud-Bash-Project** is a web application designed to analyze the content 
    ```
    
 2. Install dependencies:
-  ```bash
+   ```bash
    npm install
    pip install BeautifulSoup
    ```
