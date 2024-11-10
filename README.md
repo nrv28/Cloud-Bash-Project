@@ -12,8 +12,27 @@ The **Cloud-Bash-Project** is a web application designed to analyze the content 
   
 ## Screenshots
 
+-**Request Body (JSON)**:
+bash
+{
+  "URL": "https://example.com",   // The webpage URL to analyze
+  "Top_N": 10                     // (Optional) The number of top words to return (default is 10)
+}
+
 1. **Input Page**: The initial page where users can input the URL (shown below).
    ![Input Page](./Docs/Input.png)
+
+
+-**Response (JSON)**:
+bash
+{
+  "url": "https://example.com",
+  "top_words": [
+    ["word1", 12],
+    ["word2", 8],
+    ["word3", 5]
+  ]
+}
 
 2. **Output Page**: The result page displaying the word frequency table.
    ![Output Page](./Docs/Output.png)
