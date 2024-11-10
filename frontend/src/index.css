@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* Styles for the WordFrequency component */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2e2e2e; /* Dark gray background */
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  color: #ffcc99; /* Soft orange title */
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 500px;
+  background-color: #3b3b3b; /* Slightly lighter dark gray */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  border: 1px solid #ff8c42; /* Warm orange border */
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #f0f0f0;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #666;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #4a4a4a;
+  color: #f0f0f0;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #ff8c42; /* Warm orange */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #e6752e; /* Darker orange on hover */
+}
+
+table {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #3b3b3b; /* Match form background */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  border: 1px solid #ff8c42; /* Orange border */
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #555;
+}
+
+th {
+  background-color: #ff8c42; /* Warm orange */
+  color: #2e2e2e; /* Dark gray text for contrast */
+  font-weight: 600;
+}
+
+tr:hover {
+  background-color: #4a4a4a; /* Slightly lighter gray on row hover */
+}
+
+td {
+  color: #f0f0f0;
+}
+
+p {
+  text-align: center;
+  color: #ff6666; /* Light red for error messages */
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+/* frontend/src/WordFrequency.css */
+
+/* Other styles as before */
+
+.spinner {
+  border: 8px solid #f3f3f3; /* Light gray */
+  border-top: 8px solid #ff8c42; /* Warm orange */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
